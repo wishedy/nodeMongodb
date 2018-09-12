@@ -45,7 +45,7 @@ app.listen(8081, () => {
 });
 ```
 
-5、基本需求，实现账号、密码的注册和登录。设计表结构实体。表结构设计工具：astah professional、PowerDesigner
+5、基本需求，实现账号、密码的注册和登录。设计表结构实体。表结构设计工具：astah professional、PowerDesigner [mongoose常用API](https://www.jianshu.com/p/fc11fd1c26f9)
 
 ```JavaScript
 'use strict';
@@ -287,5 +287,4 @@ mongoose.connect('mongodb://localhost:27017/shareMongodb',{useMongoClient:true},
 });
 
 ```
-
 
